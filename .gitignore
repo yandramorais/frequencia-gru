@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+
+
+# VS Code
+.vscode/
+
+
+# Dados e saídas grandes
+data/
+outputs/
+artifacts/
+*.npy
+*.pt
+*.pth
+
+echo "data/" >> .gitignore
